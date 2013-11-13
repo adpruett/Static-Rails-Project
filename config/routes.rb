@@ -11,7 +11,7 @@ StaticRails::Application.routes.draw do
   root 'pages#home'
 
   get '/contact' => 'pages#contact'
-  get '/about-us' => 'pages#aboutus'
+  get '/about' => 'pages#aboutus'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
